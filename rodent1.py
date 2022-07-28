@@ -23,20 +23,7 @@ try:
       dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
       print ("Motion Detected!",dt_string)
       print ("CPU temp is",cpu.temperature,"Degrees C")
-    time.sleep(2)
-    
-#def MOTION(PIR_PIN):
- #   print ("Motion Detected!")
-  
-#print ("PIR Module Test (CTRL+C to exit)")
-#time.sleep(1)
-#print ("Ready")
-
-#try:
- #   GPIO.add_event_detect(PIR_PIN, GPIO.RISING, callback=MOTION)
-  #  while 1:
-   #     time.sleep(100)
-    
+    time.sleep(2) 
 
  except KeyboardInterrupt:
      print ("Quit")
